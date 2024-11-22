@@ -17,8 +17,8 @@
 #include <stdio.h>
 #include <string.h>
 
-char fisrtName[20] ;
-char lastName[20] ;
+char fisrtName[ 20 ] ;
+char lastName[ 20 ] ;
 
 int main() {
 
@@ -29,8 +29,8 @@ int main() {
     
     int len = strlen(fisrtName) ;
 
-    if( fisrtName[len - 1] == 'C' ){
-        fisrtName[len-1] = 'C' + 1 ;
+    if( fisrtName[ len - 1 ] == 'C' ) {
+        fisrtName[ len-1 ] = 'C' + 1 ;
     }
 
     printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand",fisrtName,lastName ) ;
