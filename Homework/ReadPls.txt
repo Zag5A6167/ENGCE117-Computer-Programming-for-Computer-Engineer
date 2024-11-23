@@ -1,5 +1,9 @@
 HW02
-    -ข้อ 2 ยังไม่ไดทำ
+    -ข้อ 2 not finish
+
+HW03
+    -ข้อ 2 not finish
+
 
 HW04
     -ยังไม่ได้ codex, result
