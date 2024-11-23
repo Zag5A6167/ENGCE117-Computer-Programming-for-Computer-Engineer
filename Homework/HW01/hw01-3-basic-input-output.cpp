@@ -30,7 +30,7 @@ int main() {
     int len = strlen(fisrtName) ;
 
     if( fisrtName[ len - 1 ] == 'C' ) {
-        fisrtName[ len-1 ] = 'C' + 1 ;
+        fisrtName[ len - 1 ] = 'C' + 1 ;
     }//end if
 
     printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand",fisrtName,lastName ) ;
