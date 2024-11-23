@@ -5,7 +5,10 @@
 
 int main() {
 
-    bool hasinstantNoodle = false,bowl = false,boiled = false,seasoning = false ;
+    bool hasinstantNoodle = false ;
+    bool bowl = false ;
+    bool boiled = false ;
+    bool seasoning = false ;
     int money = 0 ;
     int timeForEat ;
 
