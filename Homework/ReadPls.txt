@@ -1,8 +1,18 @@
 HW01 *Finish
+    -1 *Finish
+    -2 *Finish
+    -3 *Finish
 HW02
-    -ข้อ 2 not finish
+    -1 *Finish
+    -2  not
 HW03
-    -ข้อ 2 not finish
-    -ข้อ 3 not finish
+    -1  not
+    -2  not
 HW04
-    -ยังไม่ได้ codex, result, flowchart
+    -1 *Finish
+    -2
+    -3
+    -4
+    -5
+    -6
+    -7
