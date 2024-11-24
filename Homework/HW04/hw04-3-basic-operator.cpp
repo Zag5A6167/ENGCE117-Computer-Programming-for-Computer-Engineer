@@ -14,15 +14,15 @@
 */
 #include <stdio.h>
 
-int val1,val2,val3;
-int sum = 0;
 
 
 int main() {
 
-    scanf("%d %d %d", &val1,&val2,&val3);
-    sum = val1+val2+val3;
-    printf("%d", sum);
+    int val1, val2, val3 ;
+    int sum = 0 ;
+    scanf( "%d %d %d", &val1, &val2, &val3 ) ;
+    sum = val1 + val2 + val3 ;
+    printf( "%d", sum ) ;
 
 
     return 0;
