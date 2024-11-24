@@ -8,7 +8,7 @@ int main() {
 
     printf( "This is %d + %d = %d\n", a, b, a + b ) ;
 
-    for( int i = 0 ; i < d - 30 ; i++ ){
+    for( int i = 0 ; i < d - 30 ; i++ ) {
 
         if( i < 30 ) { 
 
