@@ -3,5 +3,6 @@ HW02
     -ข้อ 2 not finish
 HW03
     -ข้อ 2 not finish
+    -ข้อ 3 not finish
 HW04
     -ยังไม่ได้ codex, result, flowchart
