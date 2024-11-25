@@ -16,18 +16,18 @@
 
 #include <stdio.h>
 
-float height,width;
-float area;
+int main() {
+    
+    float height, width ;
+    float area ;
 
-int main(){
-
-     printf("Enter H & W : ");
-     scanf("%f %f",&height,&width);
-     area = (height*width)/2;
-     printf("Triangle Area : %.1f",area);
+    printf( "Enter H & W : " ) ;
+    scanf( "%f %f",&height,&width ) ;
+    area = ( height * width ) / 2 ;
+    printf( "Triangle Area : %.1f",area ) ;
 
     return 0;
-}
+}//end function
 
 
 // Test case ok
