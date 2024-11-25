@@ -12,7 +12,7 @@ HW04
     -1 *Finish
     -2 *Finish
     -3 *Finish
-    -4
+    -4 *Finish
     -5
     -6
     -7
