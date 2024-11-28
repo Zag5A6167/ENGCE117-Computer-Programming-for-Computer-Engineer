@@ -17,18 +17,19 @@
 
 #include <stdio.h>
 
-int celsius ;
-float fahrenheit;
 
 
 int main(){
+    
+    float celsius ;
+    float fahrenheit;
 
     printf("User input : ");
-    scanf("%d",&celsius);
+    scanf("%f",&celsius);
 
-    fahrenheit = ((float)celsius * 9/5) + 32;
+    fahrenheit = (celsius * 9/5) + 32;
 
-    printf("%d degree Celsius = %.1f degree Fahrenheit",celsius,fahrenheit);
+    printf("%.0f degree Celsius = %.1f degree Fahrenheit",celsius,fahrenheit);
 
     return 0;
 }
