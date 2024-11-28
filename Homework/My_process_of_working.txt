@@ -17,8 +17,8 @@ HW04
     -6 not  didn't know how to add , in number
     -7 *Finish
 HW04
-    -1
-    -2
+    -1 *Finish
+    -2 *Finish
     -3
     -4
     -5
