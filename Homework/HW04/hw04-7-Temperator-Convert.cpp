@@ -19,19 +19,19 @@
 
 
 
-int main(){
-    
+int main() {
+
     float celsius ;
-    float fahrenheit;
+    float fahrenheit ;
 
-    printf("User input : ");
-    scanf("%f",&celsius);
+    printf( "User input : " ) ;
+    scanf( "%f", &celsius );
 
-    fahrenheit = (celsius * 9/5) + 32;
+    fahrenheit = ( celsius * 9 / 5 ) + 32 ;
 
-    printf("%.0f degree Celsius = %.1f degree Fahrenheit",celsius,fahrenheit);
+    printf( "%.0f degree Celsius = %.1f degree Fahrenheit",celsius,fahrenheit ) ;
 
-    return 0;
-}
+    return 0 ;
+}//end function main()
 
 // Test case ok
