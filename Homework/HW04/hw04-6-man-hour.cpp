@@ -31,21 +31,27 @@ y8uin
 #include <stdio.h>
 
 char employeeId[10];
-int workingTime;
-int salaryPerHour;
+float workingTime;
+float salaryPerHour;
+float salary = 0;
 int main(){
 
     printf("Input the Employees ID(Max. 10 chars):");
     scanf("%s",employeeId);
     
     printf("Input the working hrs: ");
-    scanf("%d",&workingTime);
+    scanf("%f",&workingTime);
 
     printf("Salary amount/hr: ");
-    scanf("%d",&salaryPerHour);
+    scanf("%f",&salaryPerHour);
 
     printf("Employees ID = %s\n",employeeId);
-    printf("Salary = U$ %.2f\n", (float)workingTime * salaryPerHour);
+
+    salary = workingTime * salaryPerHour ;
+
+    
+
+    printf("Salary = U$ %.2f\n", salary);
 
 
 
