@@ -18,22 +18,24 @@
 
 #include <stdio.h>
 
-int days;
-int dayOfHour = 24;
-int hourOfMinute = 60;
-int minuteOfSecond = 60;
-int result = 0;
-int main(){
+int main() {
+    int days ;
+    int dayOfHour = 24 ;
+    int hourOfMinute = 60 ;
+    int minuteOfSecond = 60 ;
+    int result = 0 ;
 
-    printf("Input Days : ");
-    scanf("%d",&days);
-    result = days * dayOfHour * hourOfMinute * minuteOfSecond;
-    printf("%d days = %d seconds",days,result);
+    printf( "Input Days : " ) ;
+    scanf( "%d", &days ) ;
+
+    result = days * dayOfHour * hourOfMinute * minuteOfSecond ;
+
+    printf("%d days = %d seconds", days, result );
 
 
 
 
     return 0;
-}
+}//end function
 
 // Test case OK
