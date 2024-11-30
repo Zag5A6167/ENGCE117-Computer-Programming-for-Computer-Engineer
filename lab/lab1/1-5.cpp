@@ -49,7 +49,7 @@ int main() {
 
 
 /** 
-  Function Name : GetSet
+  Function Name : GetMatrix
   @Param Input **value int  data pointer to the array of integers
   @Param Input *row  int  rol of the matrix
   @Param Input *col  int  column of the matrix
