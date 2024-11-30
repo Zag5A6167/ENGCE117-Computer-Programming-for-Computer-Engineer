@@ -10,10 +10,10 @@ void explode(char str1[], char splitter[], char str2[][10], int *count) {
     int i, j, currPosDest = 0, start = 0;
 
     for (i = 0; i < lenOfStr1; i++) {
-        int foundDelimiter = 0;
+        int multiSplitter = 0;
         for (j = 0; splitter[j] != '\0'; j++) {
             if (str1[i] == splitter[j]) {           // if splitter is found in str1
-                foundDelimiter = 1;
+                multiSplitter = 1;
                 if (i - start > 0) {                
                     strncpy(str2[currPosDest], &str1[start], i - start);        // copy str1 to desc this is str2
                     str2[currPosDest][i - start] = '\0';                        // copy str1 to desc this is str2
@@ -25,8 +25,8 @@ void explode(char str1[], char splitter[], char str2[][10], int *count) {
             }
         }
 
-        // If two consecutive delimiters are found, skip the second one
-        if (foundDelimiter && i + 1 < lenOfStr1 && strchr(splitter, str1[i + 1])) {
+
+        if (multiSplitter && i + 1 < lenOfStr1 && strchr(splitter, str1[i + 1])) { // multi spliiter set pos to next index
             start = i + 2;
         }
     }
