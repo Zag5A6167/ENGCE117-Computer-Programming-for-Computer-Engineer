@@ -29,13 +29,18 @@ y8uin
 
 
 #include <stdio.h>
+#include <string.h>
 
-char employeeId[10];
-float workingTime;
-float salaryPerHour;
-float salary = 0;
+
+void formatNumber(char *salary);
+
 int main(){
-
+    char employeeId[10];
+    float workingTime;
+    float salaryPerHour;
+    float salary = 0;
+    char formatSalary[30];
+    
     printf("Input the Employees ID(Max. 10 chars):");
     scanf("%s",employeeId);
     
@@ -49,9 +54,9 @@ int main(){
 
     salary = workingTime * salaryPerHour ;
 
-    
-
-    printf("Salary = U$ %.2f\n", salary);
+    sprintf(formatSalary,"%.2f",salary);
+    formatNumber(formatSalary);
+    printf("Salary = U$ %s\n", formatSalary);
 
 
 
@@ -60,4 +65,33 @@ int main(){
 }
 
 
-// Test OK
+/** 
+  Function Name : formatNumber     comma  format number
+  @Param Input *salary char        text input for format process
+  example:
+    Input:  1000.00
+    Output: 1,000.00
+**/
+
+void formatNumber( char *salary ) {
+    int len = strlen( salary ) ; 
+    int startPos = -1 ;              
+    int commaPosAdd ;             
+    int i,j ;   
+    for( i = 0;i < len;i++ ) {         
+        if( salary[i] == '.' ) {
+            startPos = i ;               //set start pos from "."
+            break ;
+        }
+    }
+
+    if ( startPos != -1 ) {                           
+        for ( i = startPos - 3; i > 0; i -= 3 ) {     // -3 that is pos for add comma
+            for ( j = len; j >= i; j-- ) {            //loop for shift char
+                salary[ j + 1 ] = salary[ j ] ;                
+            }//end for  
+            salary[ i]  = ',' ;                           //add comma
+            len++ ;                                  //add more len after shift char
+        }//end for
+    }//end if
+}//end function

@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1458" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-36" value="" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-740" y="60" width="640" height="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="mvioNwK95yMqdUQ73LqQ-35" target="COE6_YZScoYSIGCoArtw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-35" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
+          <mxGeometry x="255" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-0" value="Display &quot;Input the Employees ID(Max. 10 chars):&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="164.5" y="240" width="311" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.0000000000002" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-2" value="employeeId is char&amp;nbsp;&lt;div&gt;workingTime is float&lt;/div&gt;&lt;div&gt;salaryPerHour is float&amp;nbsp;&lt;/div&gt;&lt;div&gt;salary is float&lt;/div&gt;&lt;div&gt;formatSalary is char&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="190.5" y="120" width="259" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-5" value="Read employeeId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-6" value="Display &quot;Input the working hrs: :&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="164.5" y="480" width="311" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-7" target="COE6_YZScoYSIGCoArtw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-7" value="Read workingTime" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="255" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-12" value="Display &quot;Salary amount/hr:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="159.5" y="730" width="311" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-13" value="Read salaryPerHour" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="235" y="830" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-15" value="Display &quot;Employees ID =&quot; + employeeId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="187.5" y="930" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-20" value="salary = workingTime * salaryPerHour ;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="210" y="1060" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-22" value="salary to str process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="210" y="1170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-27" value="format number&lt;div&gt;add comma&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="255" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="COE6_YZScoYSIGCoArtw-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315.0000000000002" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-29" value="Display &quot;Salary = U$ &quot; + salary" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="175.5" y="1400" width="279" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COE6_YZScoYSIGCoArtw-30" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;END&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="250" y="1520" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

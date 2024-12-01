@@ -15,7 +15,7 @@ HW04
     -3 *Finish
     -4 *Finish
     -5 *Finish
-    -6 not  didn't know how to add , in number
+    -6 *Finish  didn't know how to add , in number (Solved)
     -7 *Finish
 HW05
     -1 *Finish
