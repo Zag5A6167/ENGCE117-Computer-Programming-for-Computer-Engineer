@@ -6,7 +6,7 @@ HW02
     -1 *Finish
     -2 *Finish
 HW03
-    -1  not
+    -1 *Finish
     -2  not
 HW04
     -1 *Finish
