@@ -4,7 +4,7 @@ HW01
     -3 *Finish
 HW02
     -1 *Finish
-    -2  not
+    -2 *Finish
 HW03
     -1  not
     -2  not
