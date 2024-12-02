@@ -38,20 +38,20 @@ int main() {
     float a1, a2 ;
     float b1, b2 ;
     float a_mid, b_mid ;
-    printf( "Input A Point :\n" );
-    scanf( "%f %f", &a1, &b1 );
-    printf( "Input B Point :\n" );
+    printf( "Input A Point :\n" ) ;
+    scanf( "%f %f", &a1, &b1 ) ;
+    printf( "Input B Point :\n" ) ;
     scanf( "%f %f", &a2, &b2 ) ;
-    a_mid = (a1 + a2) / 2;
-    b_mid = (b1 + b2) / 2;
+    a_mid = ( a1 + a2 ) / 2 ;
+    b_mid = ( b1 + b2 ) / 2 ;
 
-    printf("Mid Point of A and B is (%.1f, %.1f)\n", a_mid, b_mid);
+    printf( "Mid Point of A and B is ( %.1f, %.1f )\n", a_mid, b_mid ) ;
     return 0 ;
 
 
 
 
 
-    return 0;
+    return 0 ;
 
 }//end function
