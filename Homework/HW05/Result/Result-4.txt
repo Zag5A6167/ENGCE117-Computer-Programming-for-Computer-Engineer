@@ -4,11 +4,10 @@ Number1 lower than Number2
 
 
 
+
 96
 63
 Number1 greater than Number2
-
-
 
 
 50
