@@ -1,0 +1,15 @@
+1st Number = 12
+2nd Number = 15
+3rd Number = 52
+The 3rd Number is the greatest among three
+
+
+
+
+
+
+89 54 72
+1st Number = 89
+2nd Number = 54
+3rd Number = 72
+The 1st Number is the greatest among three
