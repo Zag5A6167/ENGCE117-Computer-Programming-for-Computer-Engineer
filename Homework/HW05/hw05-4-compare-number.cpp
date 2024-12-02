@@ -36,14 +36,14 @@ int main() {
     scanf( "%d", &num1 );
     scanf( "%d", &num2 );
 
-    if(num1 > num2){
-        printf("Number1 greater than Number2");
+    if( num1 > num2 ) {
+        printf( "Number1 greater than Number2" ) ;
     }//end if
-    else if(num2 > num1){
-        printf("Number1 lower than Number2");
+    else if( num2 > num1 ) { 
+        printf( "Number1 lower than Number2" ) ;
     }//end else if
-    else{
-        printf("Number1 equal Number2");
+    else {
+        printf( "Number1 equal Number2" ) ;
     }//end else
 
 
