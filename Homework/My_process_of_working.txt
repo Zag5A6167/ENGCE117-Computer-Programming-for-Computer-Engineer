@@ -20,8 +20,8 @@ HW04
 HW05
     -1 *Finish
     -2 *Finish
-    -3
-    -4
+    -3 *Finish
+    -4 *Finish
     -5
     -6
     -7
