@@ -24,7 +24,13 @@ HW05
     -4 *Finish
     -5 *Finish
     -6 *Finish
-    -7
+    -7 *Finish
     -8
     -9
     -10
+HW06
+    -1
+    -2
+    -3
+    -4
+    -5
