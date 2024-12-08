@@ -1,32 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int GetSet( int [], int size ) ; 
+int GetSet( int *[] ) ; 
 
 int main() {
     int *data, num ;
-    printf( "Enter the number of elements: " ) ;
-    scanf( "%d", &num ) ;
-    data = ( int* )malloc( num * sizeof( int ) ) ;
-    num = GetSet( data, num ) ; 
+    num = GetSet( &data ) ; 
+
+    printf( "\n" );
+    printf( "Number of elements: %d\n",num );
+    for( int i = 0 ; i < num;i++ ) {
+        printf( "%d ",data[ i ] ) ;
+    }//end for
 
 
-    if(num == -1){
-        printf( "Error\n" );
 
-    }else{
-        printf( "\n" ) ;
-        printf( "Number of elements: %d\n", num ) ;
-
-        for( int i = 0 ; i < num ; i++ ) {
-            printf( "%d ", data[ i ] ) ;
-
-        }//end for
-
-    }//end else
-
+    free( data );
     
-    
+     
     return 0 ;
 
 
@@ -40,13 +31,19 @@ int main() {
 **/
 
 
-int GetSet( int arr[], int size ) {
-    for( int i = 0 ; i < size; i++ ) {
-        if (scanf("%d", &arr[i]) != 1) {
-            return -1; 
-        }//end if
-    }//end for
+int GetSet( int *data[] ) {
+    int size ;
+    printf("Enter the number of elements: ");
+    scanf( "%d", &size ) ;
 
+    *data = (int*)malloc( size * sizeof( int ) ) ;
+    
+    printf("Enter the elements: ");
+    for( int i = 0 ; i < size; i++ ) {
+        scanf( "%d", &( *data )[ i ] ) ;
+           
+    }//end for
+   
     return size ;
     
 }//end function
