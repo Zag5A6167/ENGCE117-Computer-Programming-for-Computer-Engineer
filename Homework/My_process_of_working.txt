@@ -53,7 +53,7 @@ HW09
     -5 *Finish
     -6 *Finish
     -7 *Finish
-    -8
+    -8 *Finish
     -9
     -10 *Finish
     -11 *Finish
