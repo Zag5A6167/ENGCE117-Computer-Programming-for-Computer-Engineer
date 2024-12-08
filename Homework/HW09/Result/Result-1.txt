@@ -1,0 +1,10 @@
+Enter number (-1 to stop):
+1
+2
+3
+4
+5
+6
+-1
+Index = 0 1 2 3 4 5 
+Array = 1 2 3 4 5 6
