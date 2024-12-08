@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1554" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-36" value="" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-710" y="30" width="660" height="2470" as="geometry" />
+        </mxCell>
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-35" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
+          <mxGeometry x="255" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNhVIbcrn-Icenjs99R--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="mvioNwK95yMqdUQ73LqQ-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.3299999999999" y="111.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-0" value="Display &quot;Enter element new element of array&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="200" y="210" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-2" value="Read size of&amp;nbsp; array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-3" target="tHNIh1RRDt4zNuCdvHeT-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-3" value="original data is {9,2,6,1,7}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-8" value="Read value from user store in array until equal size of array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="230" y="440" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-10" value="add new array to that input to last of origin array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-12" value="Display &quot;Old array&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-14" value="Display each value of origin array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-17" value="Sort array using bubble sort" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-19" value="Display &quot;New Array&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="tHNIh1RRDt4zNuCdvHeT-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-21" value="Display origin array after sort" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="270" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHNIh1RRDt4zNuCdvHeT-24" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="1380" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
