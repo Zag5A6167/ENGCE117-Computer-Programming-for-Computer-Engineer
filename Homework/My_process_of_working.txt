@@ -47,7 +47,7 @@ HW08
     -4
 HW09
     -1 *Finish
-    -2
+    -2 *Finish
     -3
     -4
     -5
