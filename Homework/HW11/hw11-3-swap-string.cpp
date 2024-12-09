@@ -12,7 +12,7 @@ int main() {
     for ( int i = len - 1; i >= 0; i-- ) {
         printf( "%c", name[ i ] ) ;
 
-    }//end function
+    }//end for
     
     return 0 ;
 }//end function  
