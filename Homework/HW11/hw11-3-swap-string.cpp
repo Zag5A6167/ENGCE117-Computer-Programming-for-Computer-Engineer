@@ -11,8 +11,8 @@ int main() {
     int len = strlen(name) ;
     for ( int i = len - 1; i >= 0; i-- ) {
         printf( "%c", name[ i ] ) ;
-        
+
     }//end function
     
     return 0 ;
-}//end function 
+}//end function  
