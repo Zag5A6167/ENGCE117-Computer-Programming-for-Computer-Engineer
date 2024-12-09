@@ -1,0 +1,4 @@
+3
+4
+5
+Summation = 12 (Calculate by add_numbers function)
