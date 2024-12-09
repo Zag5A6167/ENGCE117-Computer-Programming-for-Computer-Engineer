@@ -59,7 +59,7 @@ HW09
     -11 *Finish
     -12
 HW10
-    -1
+    -1 *Finish
     -2
 HW11
     -1
