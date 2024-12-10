@@ -68,7 +68,7 @@ HW11
     -4 *Finish
     -5
     -6 *Finish
-    -7
+    -7 *Finish
 HW12
     -1
     -2
