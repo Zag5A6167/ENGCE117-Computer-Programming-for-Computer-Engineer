@@ -10,8 +10,9 @@ int main() {
     char *out ;
     out = reverse( text ) ;
 
-    printf("%s", out);
-
+    printf("%s", out) ;
+    
+    return 0 ;
 }//end function
 
 
@@ -34,5 +35,5 @@ char* reverse( char str1[] ) {
     }//end for
 
 
-    return str1;
+    return str1 ;
 }//end function reverse()
