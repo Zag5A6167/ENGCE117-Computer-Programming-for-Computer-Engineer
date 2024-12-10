@@ -43,7 +43,7 @@ HW07
 HW08  
     -1 *Finish
     -2
-    -3
+    -3 *Finish
     -4
 HW09
     -1 *Finish

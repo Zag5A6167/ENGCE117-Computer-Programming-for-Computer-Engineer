@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1699" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-36" value="" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-740" y="60" width="640" height="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="JBCHaNcfTczLMrVH9G6V-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="mvioNwK95yMqdUQ73LqQ-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.2758620689656" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mvioNwK95yMqdUQ73LqQ-35" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
+          <mxGeometry x="255" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-0" value="Read n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-1" target="zIMDeQThZQWcED3z6UJm-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-1" value="Declare n, sum, array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-3" value="&lt;div&gt;Init&lt;/div&gt;arrary[ 0 ] = 1&lt;div&gt;array[ 1 ] = 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="265" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-7" value="adding two previous array indexes then store in array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="267" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-9" value="Display &quot;Series = &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="267" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-11" value="Display each of value of array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="219.5" y="830" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-15" value="sum of every value in array store in sum variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="267" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="zIMDeQThZQWcED3z6UJm-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-18" value="Display sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="267" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIMDeQThZQWcED3z6UJm-20" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+          <mxGeometry x="262" y="1300" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
