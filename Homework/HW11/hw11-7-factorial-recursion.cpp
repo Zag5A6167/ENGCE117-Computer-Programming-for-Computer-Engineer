@@ -29,7 +29,7 @@ int main() {
         printf( "%d", i ) ;
 
         if( i > 1 ) {
-            printf( "x" ) ;
+            printf( " x " ) ;
 
         }//end if
        
