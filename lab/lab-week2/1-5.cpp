@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-void GetMatrix( int **value, int *row, int *col ) ;
+void GetMatrix( int *value[], int *row, int *col ) ;
 
 int main() {
     int *data, m, n ;
@@ -58,7 +58,7 @@ int main() {
 
 
 
-void GetMatrix( int **value, int *row, int *col ) {
+void GetMatrix( int *value[], int *row, int *col ) {
     printf( "Enter the number of rows: " ) ;
     scanf( "%d", row ) ;
     printf( "Enter the number of cols: " ) ; 
