@@ -9,7 +9,7 @@ int main() {
 
     printf( "\n" );
     printf( "Number of elements: %d\n",num );
-    for( int i = 0 ; i < num;i++ ) {
+    for( int i = 0 ; i < num ;i++ ) {
         printf( "%d ",data[ i ] ) ;
     }//end for
 
