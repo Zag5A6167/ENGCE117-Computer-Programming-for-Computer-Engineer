@@ -39,7 +39,7 @@ void upgrade( struct student child ) {
     }//end if 
     
     
-    // printf("GPA upgrade func = %.2f\n",child.gpa);
+    // printf("in upgrade func gpa is = %.2f\n",child.gpa);
     
 
    
