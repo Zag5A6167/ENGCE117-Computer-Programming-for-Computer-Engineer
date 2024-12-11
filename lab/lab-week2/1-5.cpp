@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-void GetMatrix( int *value[], int *row, int *col ) ;
+void GetMatrix( int value[], int *row, int *col ) ;
 
 int main() {
     int *data, m, n ;
-    GetMatrix( &data, &m, &n ) ;
+    data = ( int* )malloc( 10  * sizeof( int ) ) ;
+    GetMatrix( data, &m, &n ) ;
+    
 
 
     
@@ -37,20 +39,21 @@ int main() {
             printf( "\n" ) ;
         }//end for
     }//end else if
+    
   
 
  
 
-    
+        
 
-    
+    free(data);
     return 0 ;
 }//end function
 
 
 /** 
   Function Name : GetMatrix
-  @Param Input **value int  data pointer to the array of integers
+  @Param Input value[] int  data pointer to the array of integers
   @Param Input *row  int  rol of the matrix
   @Param Input *col  int  column of the matrix
  
@@ -58,7 +61,7 @@ int main() {
 
 
 
-void GetMatrix( int *value[], int *row, int *col ) {
+void GetMatrix( int value[], int *row, int *col ) {
     printf( "Enter the number of rows: " ) ;
     scanf( "%d", row ) ;
     printf( "Enter the number of cols: " ) ; 
@@ -76,12 +79,11 @@ void GetMatrix( int *value[], int *row, int *col ) {
         
     
 
-    *value = ( int* )malloc(( *row ) * ( *col ) * sizeof( int ) ) ;
     printf("Enter the matrix elements: ") ;
     
     for ( int i = 0; i < *row; i++ ) {
         for ( int j = 0; j < *col; j++ ) {
-            scanf( "%d", &( *value )[ i * ( *col ) + j ] ) ;
+            scanf( "%d", &( value )[ i * ( *col ) + j ] ) ;
             char c = getchar() ;
             if ( c == '\n' && ( i < *row - 1 || j < *col - 1 ) ) {             //case user input not equal size of dimensions
                 printf( "Error: Incorrect number of elements." ) ;
@@ -90,6 +92,8 @@ void GetMatrix( int *value[], int *row, int *col ) {
         }//end for
     }//end for
     
+
+   
 
 }//end function
 
