@@ -22,20 +22,20 @@ int BinarySearch( int data[], int n, int find ) {
     int Output = -1 ;
     //--| YOUR CODE HERE
     //TODO: #23 Complete your code, Binary Search with Pass by value.
-    int high = n;
+    int high = n ;
     int low = 0 ;
     
-    while (low <= high){
-        int mid  = low + (high - low)/2;
-        if (data[mid] == find) {
+    while ( low <= high ) {
+        int mid  = low + ( high - low ) / 2 ;
+        if (data[ mid ] == find ) {
             return mid ;
         }
-        if (data[mid] < find)
+        if ( data[ mid ] < find )
         {
-           low = mid + 1;
+           low = mid + 1 ;
         }
-        else{
-           high = mid - 1;
+        else {
+           high = mid - 1 ;
         }
         
         
