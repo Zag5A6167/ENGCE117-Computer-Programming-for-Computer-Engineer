@@ -1,15 +1,16 @@
 #include <stdio.h>
 int main() {
 
-    FILE *file;
+    FILE *file ;
     char c ;
-    file = fopen("a15-1.txt", "r" ) ;
+    file = fopen( "a15-1.txt", "r" ) ;
 
-    while ((c = fgetc(file)) != EOF) {
-        printf("%c", c) ;
-    }
+    while ( (c = fgetc( file ) ) != EOF ) {
+        printf( "%c", c ) ;
+    }//end while
 
-    // Close the file
-    fclose(file);
-    return 0;
+  
+
+    fclose( file ) ;
+    return 0 ;
 }//end function 
