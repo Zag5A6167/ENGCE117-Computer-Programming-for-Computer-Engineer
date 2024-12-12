@@ -23,7 +23,7 @@ int main() {
     }//end for 
 
     printf("\n") ;
-
+ 
     printf( "Sum = %d ", sum ) ;
 
     return 0 ;
