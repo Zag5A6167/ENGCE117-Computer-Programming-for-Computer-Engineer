@@ -34,7 +34,7 @@ HW06
     -2
     -3 *Finish
     -4 *Finish
-    -5
+    -5 *Finish
 HW07
     -1 *Finish
     -2 *Finish 
