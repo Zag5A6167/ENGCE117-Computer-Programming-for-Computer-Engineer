@@ -28,10 +28,10 @@ HW05
     -7 *Finish
     -8 *Finish
     -9 *Finish
-    -10
+    -10                 
 HW06
     -1 *Finish
-    -2 (not Easy)
+    -2                  (not Easy)
     -3 *Finish
     -4 *Finish
     -5 *Finish
@@ -57,7 +57,7 @@ HW09
     -9 *Finish
     -10 *Finish
     -11 *Finish
-    -12 (Hard)
+    -12             (not Easy)
 HW10
     -1 *Finish
     -2 *Finish
