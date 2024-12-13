@@ -34,5 +34,5 @@ int main() {
 
     printf( "%s, Grade %.2f", namehighGrade, highGrade ) ;
     return 0 ;
-
+ 
 }//end function
