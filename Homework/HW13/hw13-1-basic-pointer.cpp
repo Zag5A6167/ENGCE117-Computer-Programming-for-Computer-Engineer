@@ -4,10 +4,10 @@ void swapPersonAge( int *age1, int *age2 ) ;
 
 int main() {
    
-    char name1[10] ;
+    char name1[ 10 ] ;
     int age1 ;
 
-    char name2[10] ;
+    char name2[ 10 ] ;
     int age2 ;
 
     printf( "Input A\n" ) ; 
@@ -48,4 +48,4 @@ void swapPersonAge( int *age1, int *age2 ) {
     *age1 = *age2 ;
     *age2 = temp ;
 
-}
+}//end function swapPersonAge
