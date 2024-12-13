@@ -17,7 +17,7 @@ HW04
     -5 *Finish
     -6 *Finish  didn't know how to add , in number (Solved)
     -7 *Finish
-    -8 not
+    -8 not      first time not Easy.
 HW05
     -1 *Finish
     -2 *Finish
