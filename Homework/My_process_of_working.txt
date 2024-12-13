@@ -28,7 +28,7 @@ HW05
     -7 *Finish
     -8 *Finish
     -9 *Finish
-    -10                 
+    -10         dont have idea        
 HW06
     -1 *Finish
     -2 *Finish first time (integer to roman) not Easy, i will come back again(Solved!!)
@@ -42,7 +42,7 @@ HW07
     -4 *Finish
 HW08   
     -1 *Finish
-    -2
+    -2          not easy for me dont have any idea
     -3 *Finish
     -4 *Finish
 HW09
