@@ -90,7 +90,7 @@ HW15
     -5 
     -6
     -7
-    -8
+    -8 *Finish  idk how optimize code( code line by line )
     -9 *Finish
     -10
 HW16
