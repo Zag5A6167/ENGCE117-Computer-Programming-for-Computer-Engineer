@@ -3,20 +3,23 @@
 
 int main() {
 
-    
- 
     int n ;
-    scanf("%d", &n) ;
+    scanf( "%d", &n ) ;
     int userInput = n ;
     int count = 1 ;
-    while( n > 0 ) {            
-        
-        printf( "%c%d%c Hello World\n", userInput % 2 ? '[' : '(', count, userInput % 2 ? ']' : ')' ) ;
-        count += 1 ;
-        n-- ;
     
+
+    while( count <= userInput && userInput % 2 == 0 ) {
+        printf( "(%d) Hello World\n", count ) ;
+        count++ ;
+
     }//end while
     
+    while( count <= userInput && userInput % 2 != 0 ) {
+        printf( "[%d] Hello World\n", count ) ;
+        count++ ;
+
+    }//end while
     
     
     
@@ -24,6 +27,7 @@ int main() {
     return 0 ;
 
 }//end function
+
 
 
 

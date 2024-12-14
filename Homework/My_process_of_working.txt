@@ -36,13 +36,13 @@ HW06
     -4 *Finish
     -5 *Finish
 HW07
-    -1 *Finish
+    -1 *Finish  use only while dont use if(Solved)
     -2 *Finish 
     -3 *Finish
     -4 *Finish
 HW08   
     -1 *Finish
-    -2          not easy for me dont have any idea
+    -2          not easy for me dont have any idea how to use for loop only??
     -3 *Finish
     -4 *Finish
 HW09
