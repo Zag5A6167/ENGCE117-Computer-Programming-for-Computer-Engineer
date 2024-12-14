@@ -72,7 +72,7 @@ HW11
 HW12
     -1 *Finish
     -2 *Finish
-    -3
+    -3 *Finish  idk how optimize code( code line by line )
     -4
     -5
     -6
@@ -87,7 +87,7 @@ HW15
     -2 *Finish
     -3 *Finish
     -4 *Finish
-    -5
+    -5 
     -6
     -7
     -8
