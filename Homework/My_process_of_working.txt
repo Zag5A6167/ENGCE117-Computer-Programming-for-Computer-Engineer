@@ -73,7 +73,7 @@ HW12
     -1 *Finish
     -2 *Finish
     -3 *Finish  idk how optimize code( code line by line )
-    -4
+    -4 *Finish  low quality code (No full HD)
     -5
     -6
 HW13
