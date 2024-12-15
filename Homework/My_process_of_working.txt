@@ -81,7 +81,7 @@ HW13
     -2 *Finish
     -3 *Finish idk how optimize code( code line by line )
 HW14
-    -1 *Finish
+    -1 *Finish Thx f
 HW15
     -1 *Finish
     -2 *Finish
