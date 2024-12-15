@@ -6,10 +6,10 @@ void GetSet( int [], int * ) ;
 int main() {
 
     int *data, num ;
-    data = ( int* )malloc( num * sizeof( int ) ) ;
+    data = new int[num] ;
     GetSet( data, &num ) ;
 
-   
+
     
 
     free( data ) ;
@@ -34,5 +34,5 @@ void GetSet( int data[], int *num ) {
         
     }//end for
 
- 
+    
 }//end function GetSet
