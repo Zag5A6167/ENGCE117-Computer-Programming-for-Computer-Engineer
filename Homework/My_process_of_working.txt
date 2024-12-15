@@ -28,7 +28,7 @@ HW05
     -7 *Finish
     -8 *Finish
     -9 *Finish
-    -10 *Finish  use only for loop, i dont have idea(Solved)  
+    -10  
 HW06
     -1 *Finish
     -2 *Finish first time (integer to roman) not Easy, i will come back again(Solved!!)
@@ -42,7 +42,7 @@ HW07
     -4 *Finish
 HW08   
     -1 *Finish
-    -2          not easy for me dont have any idea how to use for loop only??
+    -2 *Finish  use only for loop, i dont have idea(Solved) 
     -3 *Finish
     -4 *Finish
 HW09
