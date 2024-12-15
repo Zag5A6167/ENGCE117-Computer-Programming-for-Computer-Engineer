@@ -20,6 +20,8 @@ int main() {
 
     }//end for
 
+  
+
     return 0 ;
 }//end function
 
@@ -42,6 +44,16 @@ void GetStudent( struct student child[][ 10 ], int *room ) {
         
     }//end for
     
+  
    
+    
+    
 
 }//end function
+
+
+ 
+
+/////////////////////
+//a /a  / b /c  /   /   /  /
+/////////////////////
