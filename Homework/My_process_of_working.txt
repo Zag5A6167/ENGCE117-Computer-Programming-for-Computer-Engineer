@@ -42,7 +42,7 @@ HW07
     -4 *Finish
 HW08   
     -1 *Finish
-    -2 *Finish  use only for loop, i dont have idea(Solved) 
+    -2 *Finish  use only for loop, i dont have idea(Solved)  in sublime can run
     -3 *Finish
     -4 *Finish
 HW09
