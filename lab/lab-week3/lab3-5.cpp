@@ -22,20 +22,21 @@ int main() {
 
 
 
-struct student (*GetStudent( int *room ) )[ 10 ]{
-    static struct student children[20][10];
+struct student ( *GetStudent( int *room ) )[ 10 ] {
+    static struct student children[ 20 ][ 10 ] ;
     scanf( "%d", room ) ;
     
-    for (int i = 0; i < *room; i++) {
-       printf("Room %d:\n",i+1);
-       for (int j = 0; j < 10; j++) {
-            printf("Student %d: ",j+1);
-            scanf("%s %d",&children[i][j].name,&children[i][j].age);
-       }
+    for ( int i = 0 ; i < *room; i++ ) {
+       printf( "Room %d:\n", i+1 ) ;
+       for ( int j = 0; j < 10; j++ ) {
+            printf( "Student %d: ", j+1 ) ;
+            scanf( "%s %d", &children[ i ][ j ].name, &children[ i ][ j ].age ) ;
+
+       }//end for
        
 
 
-    }
+    }//end for
 
 
     return children ;
