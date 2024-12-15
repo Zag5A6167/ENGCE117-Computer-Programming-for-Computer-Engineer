@@ -5,7 +5,7 @@ int GetSet( int [] ) ;
 
 int main() {
     int *data, num ;
-    data = (int*)malloc( num * sizeof( int ) ) ;
+    data = new int[ num ] ;
     num = GetSet( data ) ; 
 
     printf( "\n" );
@@ -16,9 +16,9 @@ int main() {
 
 
 
-    free( data );
     
-     
+    
+    delete[] data ; 
     return 0 ;
 
 
@@ -43,7 +43,7 @@ int GetSet( int data[] ) {
         scanf( "%d", &data[ i ] ) ;
            
     }//end for
-   
+ 
     
     
     return size ;
