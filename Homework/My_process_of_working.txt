@@ -75,7 +75,7 @@ HW12
     -3 *Finish  idk how optimize code( code line by line )
     -4 *Finish  very low quality code (No full HD)
     -5 *Finish a 50
-    -6
+    -6  not finish
 HW13
     -1 *Finish
     -2 *Finish
