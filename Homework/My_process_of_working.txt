@@ -57,7 +57,7 @@ HW09
     -9 *Finish
     -10 *Finish
     -11 *Finish  sm
-    -12 *Finish  f          (not Easy)
+    -12 *Finish            (not Easy)
 HW10
     -1 *Finish
     -2 *Finish
@@ -74,7 +74,7 @@ HW12
     -2 *Finish
     -3 *Finish  idk how optimize code( code line by line )
     -4 *Finish  very low quality code (No full HD)
-    -5
+    -5 *Finish a 50
     -6
 HW13
     -1 *Finish
@@ -87,7 +87,7 @@ HW15
     -2 *Finish
     -3 *Finish
     -4 *Finish
-    -5 *Finish a
+    -5 
     -6
     -7
     -8 *Finish  idk how optimize code( code line by line )
