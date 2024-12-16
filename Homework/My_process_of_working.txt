@@ -57,7 +57,7 @@ HW09
     -9 *Finish
     -10 *Finish
     -11 *Finish  sm
-    -12             (not Easy)
+    -12 *Finish            (not Easy)
 HW10
     -1 *Finish
     -2 *Finish
