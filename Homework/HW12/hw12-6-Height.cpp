@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 struct student{
 
     char name[ 20 ] ;
@@ -25,18 +25,17 @@ int main() {
 
 void GetStudent( struct student child[][ 10 ], int *room ) {
 
-    scanf( "%d", room ) ;
-    for (int i = 0; i < *room; i++)
+    int roomA = 0 ;
+    int roomB = 0 ;
+    
+    while (1)
     {
-        printf("Room %d:\n",*room);
-        for (int j = 0; j < 10; j++)
-        {
-            printf( "Student [%d] :",j + 1 ) ;
-            scanf("%s %d",&child[i][j].name,&child[i][j].age);
-        }//end for
         
-        printf( "\n" ) ;
+
+
+
         
+    
         
         
     }//end for
