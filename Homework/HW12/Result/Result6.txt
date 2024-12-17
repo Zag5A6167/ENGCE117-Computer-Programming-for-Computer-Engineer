@@ -1,0 +1,26 @@
+Room A
+Name: John
+Height (cm): 176.6
+Name: Job
+Height (cm): 177.5
+Name: 149.8
+Height (cm): Mon
+Name: Height (cm): 158.9
+Name: Ammy
+Height (cm): 151.0
+Name: A
+Height (cm): 169.7
+Name: -1
+Room B 
+Name: Komsan
+Height (cm): 176.1
+Name: Samart
+Height (cm): 165.4
+Name: Sunu
+Height (cm): 168.1
+Name: -1
+
+
+Room A -> John Job 149.8 Mon Ammy A 
+Room B -> Komsan Samart Sunu
+School ->Job John Komsan A Sunu Samart Mon Ammy
