@@ -1,55 +1,52 @@
 #include <stdio.h>
 #include <string.h>
-struct student{
 
-    char name[ 20 ] ;
-    int age ;
+struct student {
+    char name[20];
+    int age;
 };
 
+void GetStudent(struct student child[][10], int *numA, int *numB) {
+    int roomA = 0, roomB = 1;
+    int indexRoomA = 0, indexRoomB = 0;
+    numA = &indexRoomA;
+    numB = &indexRoomB;
+    while (1) {
+        printf("Name for Room A %d: ", indexRoomA + 1);
+        scanf("%s", child[roomA][indexRoomA].name);
 
+        if (strcmp(child[roomA][indexRoomA].name, "-1") == 0) {
+            break;
+        }
 
-void GetStudent( struct student child[2][ 10 ] ) ;
+        printf("Age for Room A %d: ", indexRoomA + 1);
+        scanf("%d", &child[roomA][indexRoomA].age);
+
+       
+
+        indexRoomA++;
+    }
+
+    
+}
 
 int main() {
-    struct student children[ 2 ][ 10 ] ;
+    struct student children[2][10];
+
+    int numMemberA;
+    int numMemberB;
+
+    GetStudent(children,&numMemberA,&numMemberB);
     
-    GetStudent( children ) ;
 
- 
+    printf("\nRoom A Students:\n");
+    for (int i = 0; i < numMemberA; i++) {
+        printf("Name: %s, Age: %d\n", children[0][i].name, children[0][i].age);
+    }
 
-  
-
-    return 0 ;
-}//end function
-
-
-void GetStudent( struct student child[][ 10 ], int *room ) {
-
-    int roomA = 0 ;
-    int roomB = 0 ;
-    
-    while (1)
-    {
-        
-
-
-
-        
-    
-        
-        
-    }//end for
-    
-  
    
-    
-    
 
-}//end function
-
+    return 0;
+}
 
  
-
-/////////////////////
-//a /a  / b /c  /   /   /  /
-/////////////////////
