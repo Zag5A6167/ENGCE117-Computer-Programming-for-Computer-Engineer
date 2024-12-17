@@ -81,13 +81,13 @@ HW13
     -2 *Finish
     -3 *Finish idk how optimize code( code line by line )
 HW14
-    -1 *Finish friend
+    -1 *Finish f
 HW15
     -1 *Finish
     -2 *Finish
     -3 *Finish
     -4 *Finish
-    -5 
+    -5 *Finish
     -6
     -7
     -8 *Finish  idk how optimize code( code line by line )
