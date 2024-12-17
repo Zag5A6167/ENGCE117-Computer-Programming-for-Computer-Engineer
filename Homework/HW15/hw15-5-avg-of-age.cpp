@@ -9,22 +9,22 @@ struct Person {
 } ;
 
 int main() {
-    FILE *fp ;
+    FILE *file ;
     struct Person people[ 100 ] ;
     int count = 0 ;
     float sumAge = 0 ;
     float averageAge ;
     char salaryFromTxt[20] ;
    
-    fp = fopen( "a15-5.txt", "r" ) ;
+    file = fopen( "a15-5.txt", "r" ) ;
 
-    if ( fp == NULL ) {
+    if ( file == NULL ) {
         printf( "Error opening file!\n" ) ;
         return 1 ;
     }
 
-    fscanf(fp, "%*[^\n]\n"); //skill header line
-    while (fscanf(fp, "%s %d %s %s", people[count].name, &people[count].age, people[count].salary, people[count].job) != EOF) {
+    fscanf(file, "%*[^\n]\n"); //skill header line
+    while (fscanf(file, "%s %d %s %s", people[count].name, &people[count].age, people[count].salary, people[count].job) != EOF) {
        
         sumAge += people[count].age;
         count++;
@@ -94,6 +94,6 @@ int main() {
 
 
 
-    fclose( fp ) ;
+    fclose( file ) ;
     return 0;
 }
