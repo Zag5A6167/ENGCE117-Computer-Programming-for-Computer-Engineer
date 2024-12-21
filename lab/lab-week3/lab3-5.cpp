@@ -38,7 +38,11 @@ struct student ( *GetStudent( int *room ) )[ 10 ] {
 
     }//end for
 
-
+     for( int i = 1 ; i <= *room ; i++ ) {
+            printf( "Room %d : 10 students entered.\n", i ) ;
+            
+        }//end for
+        
     return children ;
        
 }
