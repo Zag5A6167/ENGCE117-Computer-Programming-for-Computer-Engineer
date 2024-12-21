@@ -6,7 +6,7 @@ int main() {
     int *a, b = 10, c = 20 ;
 
     go( &a, &b ) ;
-    printf( "%d %p %p\n", *a, a, &a ) ;
+    printf( "%d %p %p\n\n", *a, a, &a ) ;
 
     go( &a, &c ) ;
     printf( "%d %p %p\n", *a, a, &a ) ;
@@ -19,6 +19,6 @@ int main() {
 
 void go(int **p, int *z ){
    *p = z;
-   
+    printf( "%d %p %p\n", **p, *p, p );
    
 }//end function go
