@@ -21,21 +21,22 @@ int main() {
 
     InsNode( now, "one", 6, 'M', 3.11 ) ; 
     showAll( &start ) ;
-
+ 
     InsNode( now, "two", 8, 'F', 3.22 ) ; 
     showAll( &start ) ;
-
+   
     goNext( &now ) ;
+  
 
     InsNode( now, "three", 10, 'M', 3.33 ) ; 
     showAll( &start ) ;
 
-    InsNode( now, "four", 12, 'F', 3.44 ) ; 
-    showAll( &start ) ;
+    // InsNode( now, "four", 12, 'F', 3.44 ) ; 
+    // showAll( &start ) ;
 
-    goNext( &now ) ;
-    DelNode( now ) ;
-     showAll( &start ) ;
+    // goNext( &now ) ;
+    // DelNode( now ) ;
+    // showAll( &start ) ;
 
 
     return 0 ;
@@ -84,3 +85,8 @@ void DelNode(struct studentNode **walk ) {
 
 
 
+void goNext( struct studentNode ***walk ) {
+    if( (**walk) != NULL ) {
+        *walk =  &(**walk)->next ;
+    }//end if
+}//end function
