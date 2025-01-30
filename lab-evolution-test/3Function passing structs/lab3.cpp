@@ -12,7 +12,7 @@ int main() {
     SS ( *children )[ 4 ] ;
     int group ;
     children = GetStudent( &group ) ;
-    PrintStudent( *children, group ) ;
+    // PrintStudent( *children, group ) ;
     return 0 ;
 }//end function
 
@@ -40,18 +40,18 @@ SS ( *GetStudent( int *room ) )[ 4 ] {
 
 
 
-void PrintStudent( SS (*children)[4], int N ) {
-    for (int i = 0; i < N; i++)
-    {
-        printf("Class%d\n", i + 1);
-        for (int j = 0; i < 4; i++)
-        {
-            printf("%s %d", children[i][j].Name,children[i][j].Age);
-        }
+// void PrintStudent( SS (*children)[4], int N ) {
+//     for (int i = 0; i < N; i++)
+//     {
+//         printf("Class%d\n", i + 1);
+//         for (int j = 0; i < 4; i++)
+//         {
+//             printf("%s %d", children[i][j].Name,children[i][j].Age);
+//         }
         
-    }
+//     }
     
-}
+// }
 
 
 
