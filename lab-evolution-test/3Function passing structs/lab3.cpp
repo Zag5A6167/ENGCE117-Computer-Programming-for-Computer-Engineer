@@ -40,18 +40,16 @@ SS ( *GetStudent( int *room ) )[ 4 ] {
 
 
 
-// void PrintStudent( SS (*children)[4], int N ) {
-//     for (int i = 0; i < N; i++)
-//     {
-//         printf("Class%d\n", i + 1);
-//         for (int j = 0; i < 4; i++)
-//         {
-//             printf("%s %d", children[i][j].Name,children[i][j].Age);
-//         }
+
+void PrintStudent( SS ( *children ), int N ) {
+    for (int i = 0 ; i < N; i++)
+    {
+        printf("Class%d\n", i + 1);
+        for (int j = 0; j < 4; j++)
+        {
+            printf("%s %d\n", children[i * 4 + j].Name,children[i * 4 + j].Age ) ;
+        }
         
-//     }
+    }
     
-// }
-
-
-
+}//end func
