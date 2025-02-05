@@ -66,7 +66,7 @@ int main() {
     printf( "put hot boiled water into bowl.\n" ) ;
 
     while (true) {
-        sleep(1) ;
+        
 
         if ( timeForEat >= 30 ) {
             
